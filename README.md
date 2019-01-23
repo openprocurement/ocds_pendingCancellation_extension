@@ -1,12 +1,12 @@
-## Pending Cancellation
+# Pending Cancellation
 The extension shows  whether a lot is pending for cancellation.
-# Overview
+## Overview
 The fields introduced by this extension are:
 - `tender/pendingCancellation` - Yes or No field showing  whether a lot is pending for cancellation. 
 It should be boolean value.
 - `lots/pendingCancellation` - Yes or No field showing  whether a lot is pending for cancellation.
 It should be boolean value.
-# Examples
+## Examples
 The following extract illustrates these properties in use within the 
 `tender` and `lots` blocks.
 ```
