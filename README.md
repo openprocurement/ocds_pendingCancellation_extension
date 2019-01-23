@@ -1,6 +1,6 @@
 ## Pending Cancellation
 The extension shows  whether a lot is pending for cancellation.
-#Overview
+# Overview
 The fields introduced by this extension are:
 - `tender/pendingCancellation` - Yes or No field showing  whether a lot is pending for cancellation. 
 It should be boolean value.
@@ -17,7 +17,7 @@ The following extract illustrates these properties in use within the
         "description": "The authority is seeking support to construct a new public building.",
         "procurementMethod": "open",
         "status": "active",
-        "pendingCancellation": "true",
+        "pendingCancellation": true,
         "items": [
           {
             "id": "0001",
@@ -74,7 +74,7 @@ The following extract illustrates these properties in use within the
               "currency": "GBP",
               "amount": 200000
             },
-            "pendingCancellation": "true"
+            "pendingCancellation": true
           }
         ]
     }
