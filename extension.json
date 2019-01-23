@@ -1,0 +1,20 @@
+{
+  "name": {
+    "en": "Pending Cancellation"
+  },
+  "description": {
+    "en": "Shows  whether a lot is pending for cancellation."
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ],
+  "documentationUrl": {
+    "en": "https://github.com/openprocurement/ocds_pendingCancellation_extension"
+  },
+  "testDependencies": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_lots_extension/v1.1.3/extension.json"
+  ]
+}

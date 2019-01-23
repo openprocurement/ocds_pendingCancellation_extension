@@ -1,0 +1,22 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "pendingCancellation": {
+          "title": "Cancellation pending",
+          "type": "boolean",
+          "description": "Yes or No field showing  whether a lot is pending for cancellation."
+        }
+      }
+    },
+    "Lot": {
+      "properties": {
+        "pendingCancellation": {
+          "title": "Cancellation pending",
+          "type": "boolean",
+          "description": "Yes or No field showing  whether a lot is pending for cancellation."
+        }
+      }
+    }
+  }
+}
